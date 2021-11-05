@@ -63,7 +63,7 @@ async function getFinalData(){
     @functionParameter: finalData (temp,date,content) 
 */
 function domWrite(finalData){
-    document.getElementById('date').innerHTML    = "date: "         + finalData.date;
+    document.getElementById('date').innerHTML    = "date: "         + finalData.data;
     document.getElementById('temp').innerHTML    = "temp: "         + finalData.temp;
     document.getElementById('content').innerHTML = "your feeling: " + finalData.content;
 }
